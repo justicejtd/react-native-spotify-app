@@ -1,0 +1,5 @@
+BASE_URL='https://api.example.com/mockData'
+BASE_AUTH_URL='https://acounts.example..com'
+REDIRECT_URL='com.example://callback'
+CLIENT_ID='your_spotify_client_id'
+CLIENT_SECRET='your_spotify_client_secret'
