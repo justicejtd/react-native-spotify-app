@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {
   AuthContext,
   AuthContextData,
-} from '../../components/atoms/providers/AuthProvider';
+} from '../../components/providers/AuthProvider';
 
 const ERROR_MSG = 'useAuth must be used within an AuthProvider';
 
