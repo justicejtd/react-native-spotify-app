@@ -1,6 +1,6 @@
-import Song from '../../../data/models/song/Song';
-import {setSelectedFavSongAction} from '../../../redux/reducers/selectedFavSong/selectedFavSongSlice';
-import useAppDispatch from '../../../redux/store/useAppDispatch';
+import Song from '../../../../../data/models/song/Song';
+import {setSelectedFavSongAction} from '../../../../../redux/reducers/selectedFavSong/selectedFavSongSlice';
+import useAppDispatch from '../../../../../redux/store/useAppDispatch';
 import useOnToggleDialog from '../dialog/useOnToggleDialog';
 
 const useOnShowSongDialog = () => {

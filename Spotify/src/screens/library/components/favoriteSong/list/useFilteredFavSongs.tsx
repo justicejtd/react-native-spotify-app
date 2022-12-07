@@ -1,7 +1,7 @@
 import {useSelector} from 'react-redux';
-import {useGetLikedSongsQuery} from '../../../redux/api/apiSongSlice/apiSongSlice';
-import {DEFAULT_ARTIST_NUMBER} from '../../../redux/reducers/favoriteSongs/favoriteSongsSlice';
-import {selectSearchValue} from '../../../redux/reducers/search/searchSlice';
+import {useGetLikedSongsQuery} from '../../../../../redux/api/apiSongSlice/apiSongSlice';
+import {DEFAULT_ARTIST_NUMBER} from '../../../../../redux/reducers/favoriteSongs/favoriteSongsSlice';
+import {selectSearchValue} from '../../../../../redux/reducers/search/searchSlice';
 
 const useFilteredFavSongs = () => {
   const {data: favSongs} = useGetLikedSongsQuery();

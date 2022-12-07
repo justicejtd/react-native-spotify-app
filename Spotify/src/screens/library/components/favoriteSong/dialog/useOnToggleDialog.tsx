@@ -1,5 +1,5 @@
-import {toggleFavDialogAction} from '../../../redux/reducers/dialog/favDialogSlice';
-import useAppDispatch from '../../../redux/store/useAppDispatch';
+import {toggleFavDialogAction} from '../../../../../redux/reducers/dialog/favDialogSlice';
+import useAppDispatch from '../../../../../redux/store/useAppDispatch';
 
 const useOnToggleDialog = () => {
   const dispatch = useAppDispatch();

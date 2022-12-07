@@ -1,6 +1,6 @@
 import React, {PropsWithChildren} from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
-import useUndoDeletedSong from '../favoriteSong/list/useOnUndoDeletedSong';
+import useUndoDeletedSong from '../../screens/library/components/favoriteSong/list/useOnUndoDeletedSong';
 import SnackbarUndo from './SnackbarUndo';
 import useOnToggleSnackbar from './useOnToggleSnackbar';
 

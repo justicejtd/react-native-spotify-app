@@ -1,6 +1,6 @@
 import {Alert} from 'react-native';
-import {useUnLikeSongMutation} from '../../../redux/api/apiSongSlice/apiSongSlice';
-import useOnToggleSnackbar from '../../snackbar/useOnToggleSnackbar';
+import {useUnLikeSongMutation} from '../../../../../redux/api/apiSongSlice/apiSongSlice';
+import useOnToggleSnackbar from '../../../../../components/snackbar/useOnToggleSnackbar';
 import useOnToggleDialog from '../dialog/useOnToggleDialog';
 
 // Alert constants

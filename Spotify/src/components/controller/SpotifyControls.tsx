@@ -4,7 +4,7 @@ import PlaybackButton from '../buttons/playerController/PlaybackButton';
 import PlayButton from '../buttons/playerController/PlayButton';
 import PlayForwardButton from '../buttons/playerController/PlayForwardButton';
 import SongIconsView from '../container/SongIconsView';
-import LikeSongButton from '../likeSongButton/LikeSongButton';
+import LikeSongButton from '../buttons/likeSongButton/LikeSongButton';
 
 type Props = {
   onSkipSongPress: (isForward: boolean) => void;

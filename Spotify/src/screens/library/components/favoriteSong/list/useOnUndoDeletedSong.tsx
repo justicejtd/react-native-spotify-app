@@ -1,7 +1,7 @@
-import Song from '../../../data/models/song/Song';
-import {useLikeSongMutation} from '../../../redux/api/apiSongSlice/apiSongSlice';
-import {toggleUndoSnackbarAction} from '../../../redux/reducers/snackbar/snackbarSlice';
-import useAppDispatch from '../../../redux/store/useAppDispatch';
+import Song from '../../../../../data/models/song/Song';
+import {useLikeSongMutation} from '../../../../../redux/api/apiSongSlice/apiSongSlice';
+import {toggleUndoSnackbarAction} from '../../../../../redux/reducers/snackbar/snackbarSlice';
+import useAppDispatch from '../../../../../redux/store/useAppDispatch';
 
 const useUndoDeletedSong = () => {
   const dispatch = useAppDispatch();

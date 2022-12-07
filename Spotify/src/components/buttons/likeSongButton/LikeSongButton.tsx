@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleProp, TextStyle, ViewStyle} from 'react-native';
 
-import LikeButton from '../buttons/likeButton/LikeButton';
+import LikeButton from '../likeButton/LikeButton';
 import useOnSongsLike from './useOnSongLike';
 
 type Props = {

@@ -6,17 +6,17 @@ import {
   StyleSheet,
   ViewStyle,
 } from 'react-native';
-import {titlePaddingVert} from '../../../constants/favSongList/favSongList';
-import {Padding, Margin} from '../../../constants/styles/styleProps';
-import Song from '../../../data/models/song/Song';
-import useFavSongListBottomMargin from '../../../hooks/favSongList/useFavSongListBottomMargin';
-import {Theme} from '../../../theme/Theme';
-import useTheme from '../../../theme/useTheme';
-import LikeButton from '../../buttons/likeButton/LikeButton';
-import SongIconsView from '../../container/SongIconsView';
-import SongItem from '../../songItem/SongItem';
-import Spacer from '../../spacer/Spacer';
-import Title from '../../Texts/Title';
+import {titlePaddingVert} from '../../../../../constants/favSongList/favSongList';
+import {Padding, Margin} from '../../../../../constants/styles/styleProps';
+import Song from '../../../../../data/models/song/Song';
+import useFavSongListBottomMargin from '../../../../../hooks/favSongList/useFavSongListBottomMargin';
+import {Theme} from '../../../../../theme/Theme';
+import useTheme from '../../../../../theme/useTheme';
+import LikeButton from '../../../../../components/buttons/likeButton/LikeButton';
+import SongIconsView from '../../../../../components/container/SongIconsView';
+import SongItem from '../../../../../components/songItem/SongItem';
+import Spacer from '../../../../../components/spacer/Spacer';
+import Title from '../../../../../components/Texts/Title';
 import useFilteredFavSongs from './useFilteredFavSongs';
 
 const LIKED_SONGS = 'Liked Songs';

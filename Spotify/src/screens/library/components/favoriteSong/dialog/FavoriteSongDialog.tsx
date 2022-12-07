@@ -1,8 +1,8 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
-import {selectIsFavDialogVisible} from '../../../redux/reducers/dialog/favDialogSelectors';
-import {selectSelectedFavSong} from '../../../redux/reducers/selectedFavSong/selectedFavSongSelectors';
-import ActionDialog from '../../dialog/ActionDialog';
+import {selectIsFavDialogVisible} from '../../../../../redux/reducers/dialog/favDialogSelectors';
+import {selectSelectedFavSong} from '../../../../../redux/reducers/selectedFavSong/selectedFavSongSelectors';
+import ActionDialog from '../../../../../components/dialog/ActionDialog';
 
 // Dialog constants
 const DIALOG_TITLE = 'Remove from Liked Songs?';
