@@ -1,6 +1,5 @@
 import {useContext} from 'react';
-import {ThemeContext} from '../components/atoms/providers/ThemeProvider';
-
+import {ThemeContext} from '../components/providers/ThemeProvider';
 const ERROR_MSG = 'userTheme must be used within an ThemeProvider';
 
 /**

@@ -1,4 +1,3 @@
-import {BaseQueryApi} from '@reduxjs/toolkit/dist/query/baseQueryTypes';
 import {
   BaseQueryFn,
   createApi,
@@ -6,7 +5,6 @@ import {
   fetchBaseQuery,
   FetchBaseQueryError,
 } from '@reduxjs/toolkit/query/react';
-import {RefreshResult} from 'react-native-app-auth';
 import Config from 'react-native-config';
 import authRepo from '../../data/api/services/auth/repo/AuthRepoImpl';
 import {tokenManager} from '../../utils/tokenManager/TokenManagerImpl';
