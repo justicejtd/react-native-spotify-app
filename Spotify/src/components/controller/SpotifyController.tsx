@@ -27,7 +27,7 @@ const SpotifyController: React.FC<Props> = ({style}) => {
           style={controllerStyles.controls}
           onPlayPress={onPlayPress}
           onSkipSongPress={isForward => onSkipSongPress(isForward)}
-          isPlayed={playerState.is_playing}
+          isPlaying={playerState.is_playing}
           isLiked={false}
         />
       </SongItem>

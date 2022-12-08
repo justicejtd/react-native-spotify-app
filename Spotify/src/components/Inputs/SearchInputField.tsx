@@ -1,8 +1,9 @@
 import React from 'react';
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native';
+import icons from '../../../assets/icons/icons';
 import {colors} from '../../constants/styles/colors';
 import {Border, Padding, Margin} from '../../constants/styles/styleProps';
-import SearchIcon from '../icons/search/SearchIcon';
+import Icon from '../icons/Icon';
 import InputField from './InputField';
 
 type Props = {
@@ -20,7 +21,7 @@ const SearchInputField: React.FC<Props> = ({
 }) => {
   return (
     <View style={[styles.container, style]}>
-      <SearchIcon style={styles.icon} />
+      <Icon style={styles.icon} source={icons.searchFilled} />
       <InputField
         style={styles.input}
         onChangeText={onChangeText}
@@ -48,6 +49,6 @@ const styles = StyleSheet.create({
     color: colors.BLACK,
   },
   icon: {
-    color: colors.BLACK,
+    tintColor: colors.BLACK,
   },
 });

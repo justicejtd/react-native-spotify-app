@@ -1,14 +1,14 @@
 import React from 'react';
-import {StyleProp, TextStyle, ViewStyle} from 'react-native';
+import {ImageStyle, StyleProp, ViewStyle} from 'react-native';
 
-import LikeButton from '../likeButton/LikeButton';
+import LikeIconButton from '../LikeIconButton';
 import useOnSongsLike from './useOnSongLike';
 
 type Props = {
   songId: string;
   style?: StyleProp<ViewStyle> | undefined;
-  heartFilledStyle?: StyleProp<TextStyle>;
-  heartOutlineStyle?: StyleProp<TextStyle>;
+  heartFilledStyle?: StyleProp<ImageStyle>;
+  heartOutlineStyle?: StyleProp<ImageStyle>;
 };
 
 const LikeSongButton: React.FC<Props> = ({
@@ -20,10 +20,10 @@ const LikeSongButton: React.FC<Props> = ({
   const [isSongLiked, onSongLike] = useOnSongsLike(songId);
 
   return (
-    <LikeButton
+    <LikeIconButton
       style={style}
-      heartFilledStyle={heartFilledStyle}
-      heartOutlineStyle={heartOutlineStyle}
+      heartFilledIconStyle={heartFilledStyle}
+      heartOutlineIconStyle={heartOutlineStyle}
       onPress={() => onSongLike(songId)}
       isLiked={isSongLiked}
     />
