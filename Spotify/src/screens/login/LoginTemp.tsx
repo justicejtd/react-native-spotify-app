@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import {Padding} from '../../constants/styles/styleProps';
-import SpotifyHeader from '../../components/headers/SpotifyHeader';
+import SpotifyHeader from './components/header/SpotifyHeader';
 import ScreenView from '../../components/container/ScreenView';
 import LoginForm from '../../components/forms/LoginForm';
 

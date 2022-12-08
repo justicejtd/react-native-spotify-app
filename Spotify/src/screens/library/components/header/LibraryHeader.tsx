@@ -1,15 +1,15 @@
 import React from 'react';
 import {StyleProp, StyleSheet, View, ViewStyle} from 'react-native';
 import {useSelector} from 'react-redux';
-import {libAvatarHeight} from '../../constants/libraryHeader/libraryHeader';
-import {Margin} from '../../constants/styles/styleProps';
+import {libAvatarHeight} from '../../../../constants/libraryHeader/libraryHeader';
+import {Margin} from '../../../../constants/styles/styleProps';
 import {
   selectSearchValue,
   setSearchValueAction,
-} from '../../redux/reducers/search/searchSlice';
-import useAppDispatch from '../../redux/store/useAppDispatch';
-import Avatar from '../avatar/Avatar';
-import SearchInputField from '../Inputs/SearchInputField';
+} from '../../../../redux/reducers/search/searchSlice';
+import useAppDispatch from '../../../../redux/store/useAppDispatch';
+import Avatar from '../../../../components/avatar/Avatar';
+import SearchInputField from '../../../../components/Inputs/SearchInputField';
 
 const HEADER_IMAGE =
   'https://d5nunyagcicgy.cloudfront.net/external_assets/hero_examples/hair_beach_v391182663/original.jpeg';

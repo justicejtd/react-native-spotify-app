@@ -1,5 +1,4 @@
 import SliceState from '../../redux/models/slice/SliceState';
-
 interface CycleStateManager {
   handleStateFulfilled(state: SliceState): void;
   handleStatePending(state: SliceState): void;

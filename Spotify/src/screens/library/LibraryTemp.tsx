@@ -5,7 +5,7 @@ import {Padding} from '../../constants/styles/styleProps';
 import SnackbarUndoView from '../../components/snackbar/SnackbarUndoView';
 import ScreenView from '../../components/container/ScreenView';
 import FavoriteSongView from './components/favoriteSong/view/FavoriteSongView';
-import LibraryHeader from '../../components/headers/LibraryHeader';
+import LibraryHeader from './components/header/LibraryHeader';
 
 type Props = {style?: StyleProp<ViewStyle> | undefined};
 

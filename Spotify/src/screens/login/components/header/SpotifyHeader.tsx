@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, View, ViewProps} from 'react-native';
-import {Margin} from '../../constants/styles/styleProps';
-import SpotifyLogo from '../images/SpotifyLogo';
-import Heading1 from '../Texts/Heading1';
+import {Margin} from '../../../../constants/styles/styleProps';
+import SpotifyLogo from '../../../../components/images/SpotifyLogo';
+import Heading1 from '../../../../components/Texts/Heading1';
 
 const SPOTIFY_HEADER_MSG = 'Millions of songs,\nFree on Spotify.';
 
