@@ -2,7 +2,7 @@ import {
   useCheckLikedTracksQuery,
   useLikeSongMutation,
   useUnLikeSongMutation,
-} from '../../../redux/api/apiSongSlice/apiSongSlice';
+} from '../../../../../redux/api/apiSongSlice/apiSongSlice';
 
 const DEFAULT_LIKE_SONG_INDEX = 0;
 

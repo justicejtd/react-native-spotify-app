@@ -12,7 +12,7 @@ import Song from '../../../../../data/models/song/Song';
 import useFavSongListBottomMargin from '../../../../../hooks/favSongList/useFavSongListBottomMargin';
 import {Theme} from '../../../../../theme/Theme';
 import useTheme from '../../../../../theme/useTheme';
-import LikeButton from '../../../../../components/buttons/likeButton/LikeButton';
+import LikeIconButton from '../../../../../components/buttons/icons/like/LikeIconButton';
 import SongIconsView from '../../../../../components/container/SongIconsView';
 import SongItem from '../../../../../components/songItem/SongItem';
 import Spacer from '../../../../../components/spacer/Spacer';
@@ -41,7 +41,7 @@ const FavoriteSongsList: React.FC<PropsWithChildren<Props>> = ({
   const renderItem = (item: ListRenderItemInfo<Song>) => (
     <SongItem track={item.item.track}>
       <SongIconsView style={listStyles.iconsView}>
-        <LikeButton
+        <LikeIconButton
           onPress={_ => onShowDialog(item.item)}
           isLiked={IS_SONG_LIKED}
         />
